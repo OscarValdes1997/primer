@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B926F1722A1526C3004C12FF /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926F1712A1526C3004C12FF /* RowView.swift */; };
+		B926F1742A1526DF004C12FF /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926F1732A1526DF004C12FF /* Struct.swift */; };
+		B926F1762A152873004C12FF /* DeteilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926F1752A152873004C12FF /* DeteilView.swift */; };
+		B926F1782A1543F0004C12FF /* DeteilViewEstadisticas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926F1772A1543F0004C12FF /* DeteilViewEstadisticas.swift */; };
 		B974EDDD2A140FDF00EF18C8 /* primerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974EDDC2A140FDF00EF18C8 /* primerApp.swift */; };
 		B974EDDF2A140FDF00EF18C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974EDDE2A140FDF00EF18C8 /* ContentView.swift */; };
 		B974EDE12A140FDF00EF18C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B974EDE02A140FDF00EF18C8 /* Assets.xcassets */; };
@@ -14,6 +18,8 @@
 		B974EDEE2A140FE000EF18C8 /* primerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974EDED2A140FE000EF18C8 /* primerTests.swift */; };
 		B974EDF82A140FE000EF18C8 /* primerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974EDF72A140FE000EF18C8 /* primerUITests.swift */; };
 		B974EDFA2A140FE000EF18C8 /* primerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974EDF92A140FE000EF18C8 /* primerUITestsLaunchTests.swift */; };
+		B9CC4C1E2A1E709400595E24 /* BildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC4C1D2A1E709400595E24 /* BildingView.swift */; };
+		B9D9BFCB2A17E59B0098472E /* DeteilList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D9BFCA2A17E59B0098472E /* DeteilList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B926F1712A1526C3004C12FF /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		B926F1732A1526DF004C12FF /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		B926F1752A152873004C12FF /* DeteilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeteilView.swift; sourceTree = "<group>"; };
+		B926F1772A1543F0004C12FF /* DeteilViewEstadisticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeteilViewEstadisticas.swift; sourceTree = "<group>"; };
 		B974EDD92A140FDF00EF18C8 /* primer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = primer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B974EDDC2A140FDF00EF18C8 /* primerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primerApp.swift; sourceTree = "<group>"; };
 		B974EDDE2A140FDF00EF18C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,8 @@
 		B974EDF32A140FE000EF18C8 /* primerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B974EDF72A140FE000EF18C8 /* primerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primerUITests.swift; sourceTree = "<group>"; };
 		B974EDF92A140FE000EF18C8 /* primerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9CC4C1D2A1E709400595E24 /* BildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildingView.swift; sourceTree = "<group>"; };
+		B9D9BFCA2A17E59B0098472E /* DeteilList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeteilList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B926F1702A152693004C12FF /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				B926F1732A1526DF004C12FF /* Struct.swift */,
+				B926F1712A1526C3004C12FF /* RowView.swift */,
+				B9CC4C1D2A1E709400595E24 /* BildingView.swift */,
+				B926F1752A152873004C12FF /* DeteilView.swift */,
+				B9D9BFCA2A17E59B0098472E /* DeteilList.swift */,
+				B926F1772A1543F0004C12FF /* DeteilViewEstadisticas.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
 		B974EDD02A140FDF00EF18C8 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +119,7 @@
 		B974EDDB2A140FDF00EF18C8 /* primer */ = {
 			isa = PBXGroup;
 			children = (
+				B926F1702A152693004C12FF /* Struct */,
 				B974EDDC2A140FDF00EF18C8 /* primerApp.swift */,
 				B974EDDE2A140FDF00EF18C8 /* ContentView.swift */,
 				B974EDE02A140FDF00EF18C8 /* Assets.xcassets */,
@@ -257,7 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CC4C1E2A1E709400595E24 /* BildingView.swift in Sources */,
+				B926F1762A152873004C12FF /* DeteilView.swift in Sources */,
+				B926F1742A1526DF004C12FF /* Struct.swift in Sources */,
+				B926F1782A1543F0004C12FF /* DeteilViewEstadisticas.swift in Sources */,
+				B9D9BFCB2A17E59B0098472E /* DeteilList.swift in Sources */,
 				B974EDDF2A140FDF00EF18C8 /* ContentView.swift in Sources */,
+				B926F1722A1526C3004C12FF /* RowView.swift in Sources */,
 				B974EDDD2A140FDF00EF18C8 /* primerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
